@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>
+    Destaques
+  </title>
+  <link href="css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="css/bootstrap-grid.min.css" rel="stylesheet"/>
+  <link href="css/bootstrap-reboot.min.css" rel="stylesheet"/>
+  <link href="css/style.css" rel="stylesheet"/>
+  <link href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet"/>
+</head>
+<body class="background">
+
+  <header>
+  </header>
+  <!-- Here it would be nice to have a js tmpl but for time and to be simple I wont use it -->
+  <div class="row center-panel padding-100" id='destaques'>
+    <div class="col-md-12 m-col ">
+      <nav class="nav justify-content-center" id='mytab'>
+        <a class="nav-link active" id='destaqueAluguel' href="#aluguel" data-toggle="tab" role="tab" aria-controls="aluguel">Destaque Aluguel
+          <i class="fa fa-angle-down fa-2x offset-4 display-block" aria-hidden="true"></i>
+        </a>
+        <a class="nav-link" id='destaqueVenda' href="#venda" data-toggle="tab" role="tab" aria-controls="venda">Destaque Venta
+          <i class="fa fa-angle-down fa-2x offset-4 display-block" aria-hidden="true"></i>
+        </a>
+      </nav>
+    </div>
+    <div class="tab-content tab-pane " id='aluguel'>
+      <div class="row padding-20">
+        <div class="col-md-6">
+          <div class="card no-border">
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                <img class="card-img-left" src="https://dummyimage.com/150x150/8f878f/696a70" alt="Card image cap">
+              </div>
+              <div class="col-lg-8 col-md-6">
+                <p class="card-title col-md-">Castelo casa geminada</p>
+                <div class="row">
+                  <div class="col-lg-6 flex">
+                    <i class="fa fa-arrows-alt color-p" aria-hidden="true"> </i>
+                    <p class="m-l-20">250 m</p>
+                  </div>
+                  <div class="col-lg-6 flex">
+                    <i class="fa fa-bath color-p" aria-hidden="true"></i>
+                    <p class="m-l-20">2 banho(s)</p>
+                  </div>
+                  <div class="col-lg-6 flex">
+                    <i class="fa fa-bed color-p" aria-hidden="true"></i>
+                    <p class="m-l-20">2 quarto(s)</p>
+                  </div>
+                  <div class="col-lg-6 flex">
+                    <i class="fa fa-car color-p" aria-hidden="true"></i>
+                    <p class="m-l-20">2 vaga(s)</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12 color-s">
+                    R$ 10.000.000,00 <a aria-hidden="true" data-toggle="modal" data-target="#myModal" class=" float-right color-p" href=""><i class="fa fa-plus" ></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card no-border">
+            <div class="row">
+              <div class="col-lg-4 col-md-5">
+                <img class="card-img-left" src="https://dummyimage.com/150x150/8f878f/696a70" alt="Card image cap">
+              </div>
+              <div class="col-lg-8 col-md-5">
+                <p class="card-title col-md-">Castelo casa geminada</p>
+                <div class="row">
+                  <div class="col-lg-6 flex">
+                    <i class="fa fa-arrows-alt color-p" aria-hidden="true"> </i>
+                    <p class="m-l-20">250 m</p>
+                  </div>
+                  <div class="col-lg-6 flex">
+                    <i class="fa fa-bath color-p" aria-hidden="true"></i>
+                    <p class="m-l-20">2 banho(s)</p>
+                  </div>
+                  <div class="col-lg-6 flex">
+                    <i class="fa fa-bed color-p" aria-hidden="true"></i>
+                    <p class="m-l-20">2 quarto(s)</p>
+                  </div>
+                  <div class="col-lg-6 flex">
+                    <i class="fa fa-car color-p" aria-hidden="true"></i>
+                    <p class="m-l-20">2 vaga(s)</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12 color-s">
+                    R$ 10.000.000,00 <i class="fa fa-plus float-right color-p" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 m-t-20">
+          <div class="card no-border">
+            <div class="row">
+              <div class="col-lg-4 col-md-5">
+                <img class="card-img-left" src="https://dummyimage.com/150x150/8f878f/696a70" alt="Card image cap">
+              </div>
+              <div class="col-lg-8 col-md-5">
+                <p class="card-title col-md-">Castelo casa geminada</p>
+                <div class="row">
+                  <div class="col-lg-6 flex">
+                    <i class="fa fa-arrows-alt color-p" aria-hidden="true"> </i>
+                    <p class="m-l-20">250 m</p>
+                  </div>
+                  <div class="col-lg-6 flex">
+                    <i class="fa fa-bath color-p" aria-hidden="true"></i>
+                    <p class="m-l-20">2 banho(s)</p>
+                  </div>
+                  <div class="col-lg-6 flex">
+                    <i class="fa fa-bed color-p" aria-hidden="true"></i>
+                    <p class="m-l-20">2 quarto(s)</p>
+                  </div>
+                  <div class="col-lg-6 flex">
+                    <i class="fa fa-car color-p" aria-hidden="true"></i>
+                    <p class="m-l-20">2 vaga(s)</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12 color-s">
+                    R$ 10.000.000,00 <i class="fa fa-plus float-right color-p" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 m-t-20">
+          <div class="card no-border">
+            <div class="row">
+              <div class="col-lg-4 col-md-5">
+                <img class="card-img-left" src="https://dummyimage.com/150x150/8f878f/696a70" alt="Card image cap">
+              </div>
+              <div class="col-lg-8 col-md-5">
+                <p class="card-title col-md-">Castelo casa geminada</p>
+                <div class="row">
+                  <div class="col-lg-6 flex">
+                    <i class="fa fa-arrows-alt color-p" aria-hidden="true"> </i>
+                    <p class="m-l-20">250 m</p>
+                  </div>
+                  <div class="col-lg-6 flex">
+                    <i class="fa fa-bath color-p" aria-hidden="true"></i>
+                    <p class="m-l-20">2 banho(s)</p>
+                  </div>
+                  <div class="col-lg-6 flex">
+                    <i class="fa fa-bed color-p" aria-hidden="true"></i>
+                    <p class="m-l-20">2 quarto(s)</p>
+                  </div>
+                  <div class="col-lg-6 flex">
+                    <i class="fa fa-car color-p" aria-hidden="true"></i>
+                    <p class="m-l-20">2 vaga(s)</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12 color-p">
+                    R$ 10.000.000,00 <i class="fa fa-plus float-right" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tab-content">
+      <div class=" tab-pane " id='venda'>
+        <div class="row padding-20">
+          <div class="col-md-6">
+            <div class="card no-border">
+              <div class="row">
+                <div class="col-lg-4 col-md-5">
+                  <img class="card-img-left" src="https://dummyimage.com/150x150/bdbbbd/696a70" alt="Card image cap">
+                </div>
+                <div class="col-lg-8 col-md-5">
+                  <p class="card-title col-md-">Castelo casa geminada</p>
+                  <div class="row">
+                    <div class="col-lg-6 flex">
+                      <i class="fa fa-arrows-alt color-p" aria-hidden="true"> </i>
+                      <p class="m-l-20">250 m</p>
+                    </div>
+                    <div class="col-lg-6 flex">
+                      <i class="fa fa-bath color-p" aria-hidden="true"></i>
+                      <p class="m-l-20">2 banho(s)</p>
+                    </div>
+                    <div class="col-lg-6 flex">
+                      <i class="fa fa-bed color-p" aria-hidden="true"></i>
+                      <p class="m-l-20">2 quarto(s)</p>
+                    </div>
+                    <div class="col-lg-6 flex">
+                      <i class="fa fa-car color-p" aria-hidden="true"></i>
+                      <p class="m-l-20">2 vaga(s)</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12 color-p">
+                      R$ 10.000.000,00 <i class="fa fa-plus float-right" aria-hidden="true"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card no-border">
+              <div class="row">
+                <div class="col-lg-4 col-md-5">
+                  <img class="card-img-left" src="https://dummyimage.com/150x150/bdbbbd/696a70" alt="Card image cap">
+                </div>
+                <div class="col-lg-8 col-md-5">
+                  <p class="card-title col-md-">Castelo casa geminada</p>
+                  <div class="row">
+                    <div class="col-lg-6 flex">
+                      <i class="fa fa-arrows-alt color-p" aria-hidden="true"> </i>
+                      <p class="m-l-20">250 m</p>
+                    </div>
+                    <div class="col-lg-6 flex">
+                      <i class="fa fa-bath color-p" aria-hidden="true"></i>
+                      <p class="m-l-20">2 banho(s)</p>
+                    </div>
+                    <div class="col-lg-6 flex">
+                      <i class="fa fa-bed color-p" aria-hidden="true"></i>
+                      <p class="m-l-20">2 quarto(s)</p>
+                    </div>
+                    <div class="col-lg-6 flex">
+                      <i class="fa fa-car color-p" aria-hidden="true"></i>
+                      <p class="m-l-20">2 vaga(s)</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12 color-p">
+                      R$ 10.000.000,00 <i class="fa fa-plus float-right" aria-hidden="true"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 m-t-20">
+            <div class="card no-border">
+              <div class="row">
+                <div class="col-lg-4 col-md-5">
+                  <img class="card-img-left" src="https://dummyimage.com/150x150/bdbbbd/696a70" alt="Card image cap">
+                </div>
+                <div class="col-lg-8 col-md-5">
+                  <p class="card-title col-md-">Castelo casa geminada</p>
+                  <div class="row">
+                    <div class="col-lg-6 flex">
+                      <i class="fa fa-arrows-alt color-p" aria-hidden="true"> </i>
+                      <p class="m-l-20">250 m</p>
+                    </div>
+                    <div class="col-lg-6 flex">
+                      <i class="fa fa-bath color-p" aria-hidden="true"></i>
+                      <p class="m-l-20">2 banho(s)</p>
+                    </div>
+                    <div class="col-lg-6 flex">
+                      <i class="fa fa-bed color-p" aria-hidden="true"></i>
+                      <p class="m-l-20">2 quarto(s)</p>
+                    </div>
+                    <div class="col-lg-6 flex">
+                      <i class="fa fa-car color-p" aria-hidden="true"></i>
+                      <p class="m-l-20">2 vaga(s)</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12 color-p">
+                      R$ 10.000.000,00 <i class="fa fa-plus float-right" aria-hidden="true"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 m-t-20">
+            <div class="card no-border">
+              <div class="row">
+                <div class="col-lg-4 col-md-5">
+                  <img class="card-img-left" src="https://dummyimage.com/150x150/bdbbbd/696a70" alt="Card image cap">
+                </div>
+                <div class="col-lg-8 col-md-5">
+                  <p class="card-title col-md-">Castelo casa geminada</p>
+                  <div class="row">
+                    <div class="col-lg-6 flex">
+                      <i class="fa fa-arrows-alt color-p" aria-hidden="true"> </i>
+                      <p class="m-l-20">250 m</p>
+                    </div>
+                    <div class="col-lg-6 flex">
+                      <i class="fa fa-bath color-p" aria-hidden="true"></i>
+                      <p class="m-l-20">2 banho(s)</p>
+                    </div>
+                    <div class="col-lg-6 flex">
+                      <i class="fa fa-bed color-p" aria-hidden="true"></i>
+                      <p class="m-l-20">2 quarto(s)</p>
+                    </div>
+                    <div class="col-lg-6 flex">
+                      <i class="fa fa-car color-p" aria-hidden="true"></i>
+                      <p class="m-l-20">2 vaga(s)</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12 color-p">
+                      R$ 10.000.000,00 <i class="fa fa-plus float-right" aria-hidden="true"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-color-p">
+          <h5 class="modal-title " id="exampleModalLabel">Fale conosco</h5>
+          <button type="button white" class="close" data-dismiss="modal" aria-label="Close">
+            <span class="white" aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <p> Entre en contato conosco, estamos disposição para atendê-los!</p>
+            </div>
+            <div class="col-lg-8 offset-2">
+              <form>
+                <div class="form-group">
+                  <label for="inputName1">Nome</label>
+                  <input type="text" class="form-control" d="inputName1"  placeholder="Nome">
+                </div>
+                <div class="form-group">
+                  <label for="inputEmail1">Email</label>
+                  <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                  <label for="inputTel1">Telefone</label>
+                  <div class="input-group">
+                    <input type="text" id='inputTel1' class="form-control" placeholder="telefone(s)"  aria-describedby="basic-addon2">
+                    <span class="input-group-addon" id="basic-addon2"><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="exampleTextarea">Mensagem</label>
+                  <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="btn btn-p ">Enviar mensagem</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="row m-b-50">
+          <div class="col-lg-11 text-right">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          </div>
+          <br>
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="https://use.fontawesome.com/62f5587ae9.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+  <script>
+  $('#myTab a').click(function (e) {
+    e.preventDefault()
+    $(this).tab('show')
+  })
+  </script>
+</body>
+</html>
